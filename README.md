@@ -23,12 +23,16 @@ Most importantly, have fun!
 ## Preliminary Questions to Group Workshop
 
  Explain the difference between Relational Databases and SQL.
+ -Relational databases are where data is stored, and SQL is the language that manipulates that them, through CRUD operations or JOINS. SQL is directly interfacing with the database. 
 
  Why do tables need a primary key?
+ -So we can have a unique identifier for every entry and makes it easier to monitor/organize data. We can also use primary keys as a foreign key to bridge tables. 
 
  What is the name given to a table column that references the primary key on another table.
+ -A foreign key!
 
  What do we need in order to have a many to many relationship between two tables.
+ -A third table that will link the foreign keys in the two first tables. The foreign keys do not have to necessarily link to primary keys.
  
  ## Finally...
  
