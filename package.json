@@ -1,0 +1,29 @@
+{
+  "name": "groupthink-todo-api",
+  "version": "1.0.0",
+  "description": "This is a group think api built to handle todos, built by the students of web22_mack and web22_sydney!",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MWeberLambdaweb19/groupthink-todo-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MWeberLambdaweb19/groupthink-todo-api/issues"
+  },
+  "homepage": "https://github.com/MWeberLambdaweb19/groupthink-todo-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.19.5",
+    "sqlite3": "^4.1.0"
+  }
+}
